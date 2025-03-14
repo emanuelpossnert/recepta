@@ -60,8 +60,7 @@ const initialFilterOptions: FilterOptions = {
   mealPlanType: "En dag" as MealPlanType,
   cookingMethod: '',
   difficulty: 1 as Difficulty,
-  cookingTime: '',
-  ingredients: []
+  cookingTime: ''
 };
 
 export default function RecipeForm({ onSubmit }: { onSubmit: (filters: FilterOptions) => void }) {
