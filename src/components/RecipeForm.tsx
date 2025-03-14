@@ -1,3 +1,5 @@
+// RecipeForm.tsx - Uppdaterad version utan ingredients i FilterOptions
+// Hanterar formuläret för receptgenerering med alla filter och inställningar
 import { useState } from 'react';
 import { FilterOptions, MealPlanType, Difficulty } from '../types/types';
 
