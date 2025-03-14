@@ -24,6 +24,7 @@ export interface FilterOptions {
   cookingMethod: string;
   difficulty: Difficulty;
   cookingTime: string;
+  ingredients?: never;
 }
 
 export interface ApiResponse {

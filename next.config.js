@@ -2,8 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['oaidalleapicontent.blob.core.windows.net'],
-  },
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'oaidalleapicontent.blob.core.windows.net'
+      }
+    ]
+  }
 }
 
 module.exports = nextConfig 
